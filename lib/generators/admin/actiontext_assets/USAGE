@@ -1,0 +1,8 @@
+Description:
+    Add the admin JS file for rich text fields in Administrate
+
+Example:
+    bin/rails generate admin_js
+
+    This will create:
+        app/javascript/administrate-rich-text.js
