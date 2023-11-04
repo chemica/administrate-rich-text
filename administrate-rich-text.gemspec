@@ -9,12 +9,10 @@ Gem::Specification.new do |spec|
   spec.email = ["ben@chemica.co.uk"]
 
   spec.summary = "Allow rich text editing in Administrate"
-  spec.description = "Incorporate Trix into Administrate to allow rich text editing in the dashboard. works seamlessly with action storage"
+  spec.description = "Incorporate ActionText into Administrate to allow rich text editing in the dashboard."
   spec.homepage = "https://github.com/chemica/administrate-rich-text"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
-
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
@@ -33,7 +31,4 @@ Gem::Specification.new do |spec|
   # Uncomment to register a new dependency of your gem
   spec.add_dependency 'administrate', '< 1.0.0'
   spec.add_dependency 'rails', '>= 7.0.0'
-
-  # For more information and examples about making a new gem, check out our
-  # guide at: https://bundler.io/guides/creating_gem.html
 end
